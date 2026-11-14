@@ -1,5 +1,21 @@
-# Visual Studio · archivos locales
+# Carpetas generadas por Unreal Engine
+/Binaries/
+/DerivedDataCache/
+/Intermediate/
+/Saved/
+
+# Carpetas generadas dentro de los plugins
+/Plugins/**/DerivedDataCache/
+/Plugins/**/Intermediate/
+/Plugins/**/Saved/
+
+# Instalación local de Meta XR Simulator
+/meta_xr_simulator_windows_*/
+
+# Archivos locales de Visual Studio y Rider
 .vs/
+/.idea/
+*.sln
 *.suo
 *.user
 *.userosscache
@@ -9,74 +25,9 @@
 *.VC.db
 *.VC.opendb
 
-# JetBrains Rider · configuración local
-/.idea/
-
-# Archivos de proyecto generados
-*.xcodeproj
-*.xcworkspace
-*.sln
-
-# Archivos objeto compilados
-*.slo
-*.lo
-*.o
-*.obj
-
-# Cabeceras precompiladas
-*.gch
-*.pch
-
-# Bibliotecas dinámicas compiladas
-*.so
-*.dylib
-*.dll
-
-# Módulos de Fortran
-*.mod
-
-# Bibliotecas estáticas compiladas
-*.lai
-*.la
-*.a
-*.lib
-
-# Ejecutables
-*.exe
-*.out
-*.app
-*.ipa
-
-# Arte fuente excluido por la plantilla original
-SourceArt/**/*.png
-SourceArt/**/*.tga
-
-# Binarios de Unreal y de los plugins
-Binaries/*
-Plugins/**/Binaries/*
-
-# Archivos de Build
-Build/*
-
-# Conservar las listas de exclusión de paquetes y los iconos
-!Build/*/
-Build/*/**
-!Build/*/PakBlacklist*.txt
-!Build/**/*.ico
-
-# Datos generados de mapas
-*_BuiltData.uasset
-
-# Archivos generados por Unreal Engine
-Saved/*
-Intermediate/*
-DerivedDataCache/*
-Plugins/**/Intermediate/*
-Plugins/**/DerivedDataCache/
-Plugins/**/Saved/
-
-# Instalación local de Meta XR Simulator
-/meta_xr_simulator_windows_*/
+# Proyectos generados para Xcode
+*.xcodeproj/
+*.xcworkspace/
 
 # Archivos temporales del sistema
 .DS_Store
